@@ -7,25 +7,25 @@ header{
 }
 .floating-navbar{
     display: inline-block;
+    margin-top: 40px;
+    margin-left: 5px;
 }
 .navbar-nav{
-    background: #5F0000;
-    border: 2px solid #000;
+    background: #FDD55C;
 }
 .navbar-nav li{
 }
 .navbar-nav li:hover{
 }
 .navbar-nav li a{
-    color: #fff;
+    color: #000;
+    padding: 10px 12px!important;
 }
 .navbar-nav li a:hover{
     background: #fff;
     color: #5F0000;
 }
 .navbar-nav li a i{
-
-    padding: 5px 10px;
 }
 .navbar-nav li a i:hover{
 }
@@ -64,11 +64,11 @@ header{
     color: #fff;
 }
 .img-container{
-	background: url(../img/banner.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: center center;
-	position: relative;
+    background: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: center center;
+    position: relative;
 }
 .info-box h1{}
 .info-box h4{}
@@ -85,7 +85,7 @@ header{
 .info-bar-inside span{}
 .info-bar-inside i{
     margin-right: 10px;
-    color: #5f0000;
+    color: #FDD55C;
     font-size: 30px;
 }
 
@@ -128,7 +128,7 @@ header{
     padding: 25px 0;
 }
 .box-color-1{
-    background-color: #5F0000;
+    background-color: #FDD55C;
 }
 .box-color-2{
     background-color: #fff;
@@ -154,7 +154,7 @@ header{
 .education-boxes{
 }
 .education-boxes i{
-    color: #5F0000;
+    color: #FDD55C;
     font-size: 25px;
 }
 .education-boxes h1{}
@@ -199,9 +199,9 @@ header{
     display: inline-block;
     padding: 10px 30px;
     margin-right: 15px;
-    background-color: #5F0000;
+    background-color: #FDD55C;
     border-radius: 50px;
-    color: #fff;
+    color: #000;
     font-weight: 600;
     cursor: pointer;
 }
@@ -209,9 +209,9 @@ header{
 .card{}
 
 .testimonial-section{
-    background-color: #5F0000;
+    background-color: #FDD55C;
     padding: 25px 0;
-    color: #fff;
+    color: #000;
     margin: 10px 0;
 }
 .text-bold{}
@@ -219,18 +219,25 @@ blockquote{}
 blockquote p{}
 blockquote h3{}
 blockquote::after{
-	content: '';
+    content: '';
 }
 blockquote::before{
-	content: "";
+    content: "";
 }
 
 
 .contact-section{}
-.contact-form{}
+.pl-custom{
+    padding-left: 90px;
+}
+.contact-form{
+    margin-top: 40px;
+}
 .contact-form h1{}
 form{}
-.mail-input{}
+.mail-input{
+    background-color: transparent;
+}
 .subject-input{}
 .message-input{}
 .input-button{}
@@ -262,9 +269,26 @@ form{}
 .tweet-icon{}
 .linkedin-icon{}
 .box-color-3{
-    background: #666;
+    background-color: #1E1D1B;
+    background-image: linear-gradient(to right, #504f4f , #0a0a0a);
     color: #fff;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
